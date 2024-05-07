@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_Act2_U_3_4.PageConsulta"
+             NavigationPage.HasNavigationBar="False">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Numero de control"
+     TextColor ="Blue"
+    FontAttributes="None"
+    FontSize="10"
+    TextDecorations="Underline"/>
+            <Entry Placeholder=""
+           x:Name="txtNumCtlr"
+           Keyboard="Numeric"/>
+
+            <Label Text="Nombre"
+     TextColor ="Blue"
+    FontAttributes="None"
+    FontSize="10"
+    TextDecorations="Underline"/>
+            <Entry Placeholder=""
+           x:Name="txtNombre"
+           Keyboard="Default"/>
+            <Label Text="Apellido"
+     TextColor ="Blue"
+    FontAttributes="None"
+    FontSize="10"
+    TextDecorations="Underline"/>
+            <Entry Placeholder=""
+           x:Name="txtApellido"
+           Keyboard="Default"/>
+
+            <Label Text="Telefono"
+     TextColor ="Blue"
+    FontAttributes="None"
+    FontSize="10"
+    TextDecorations="Underline"/>
+            <Entry Placeholder=""
+           x:Name="txtCtlr"
+           Keyboard="Telephone"/>
+
+            <Label Text="Direccion"
+     TextColor ="Blue"
+    FontAttributes="None"
+    FontSize="10"
+    TextDecorations="Underline"/>
+            <Entry Placeholder=""
+           x:Name="txtDireccion"
+           Keyboard="Default"/>
+
+            <Label Text="Curp"
+     TextColor ="Blue"
+    FontAttributes="None"
+    FontSize="10"
+    TextDecorations="Underline"/>
+            <Entry Placeholder=""
+           x:Name="txtCurp"
+           Keyboard="Default"/>
+
+            <Label Text="Numero de seguro social"
+         TextColor ="Blue"
+        FontAttributes="None"
+        FontSize="10"
+        TextDecorations="Underline"/>
+            <Entry Placeholder=""
+           x:Name="txtNNS"
+           Keyboard="Numeric"/>
+
+            <Button Text="Consultar"
+         Clicked="EventoConsul"
+         TextColor="Blue"
+         BackgroundColor= "Green"/>
+            <Button Text="Nueva Consulta"
+         Clicked="EventoBaja"
+         TextColor="Blue"
+         BackgroundColor= "Green"/>
+            <Button Text="regresar"
+         Clicked="EventoMenu"
+         TextColor="Blue"
+         BackgroundColor= "Green"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

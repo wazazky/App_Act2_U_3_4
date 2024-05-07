@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_Act2_U_3_4.MainPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <StackLayout>
+        <Label Text ="Instituto Tecnologico de tijuana"
+               TextColor ="Blue"
+               FontSize="15"
+               HorizontalOptions="Center"/>
+        <Label Text ="Desarrollo da aplciaciones moviles "
+               TextColor ="Blue"
+               FontAttributes="None"
+               FontSize="15"
+               HorizontalOptions="Center"/>
+        <Label Text ="6:00 a 7:00"
+               TextColor ="Blue"
+               FontAttributes="None"
+               FontSize="15"
+               HorizontalOptions="Center"/>
+        <Label Text="Alumno : Jesus Lizarraga"
+               TextColor ="Blue"
+               FontAttributes="None"
+               FontSize="10"
+               TextDecorations="Underline"/>
+        <Button Text="Alta de Alumno"
+                Clicked="EventoAlta"
+                TextColor="Blue"
+                BackgroundColor= "Aqua"/>
+        <Button Text="Baja de Alumno"
+                Clicked="EventoBaja"
+                TextColor="Blue"
+                BackgroundColor= "Aqua"/>
+        <Button Text="Consulta de datos de Alumno"
+                Clicked="EventoConsu"
+                TextColor="Blue"
+                BackgroundColor= "Aqua"/>
+        <Button Text="Actualizar datos de Alumno"
+                Clicked="EventoActu"
+                TextColor="Blue"
+                BackgroundColor= "Aqua"/>
+
+    </StackLayout>
+
+</ContentPage>
